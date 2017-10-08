@@ -1,0 +1,55 @@
+//META{"name":"CatCop","description":"CatCop's Custom Discord Skin.","author": "slaq","version": "1.0"}*//{}
+/* "CatCop v1" by KonekoSenpai */
+/* Based on "ClearVision_Sapphire v5" by @Zerthox */
+
+/* IMPORT CSS FROM GITHUB */
+@import url(https://raw.githubusercontent.com/KonekoSenpai/CatCop-s-Custom-Skin/master/CatCop.theme.css);
+/*
+---------------------------------------------------------------------------------------------------------------------------------------------
+IMPORTANT: This got really old!!
+---------------------------------------------------------------------------------------------------------------------------------------------
+*/
+/*
+---------------------------------------------------------------------------------------------------------------------------------------------
+================ IMPORTANT LINKS =================
+Twitter: http://twitter.com/KonekoSenpaiii
+Discord: https://discordapp.com/invite/ges6fV8
+Twitch: http://twitch.tv/KonekoSenpaiii
+---------------------------------------------------------------------------------------------------------------------------------------------
+*/
+/*
+---------------------------------------------------------------------------------------------------------------------------------------------
+============== CUSTOMIZABLE COLORS ===============
+*/
+:root {
+	--main-color: #85F391;
+	--hover-color: #85F391;
+    --background-blur: 0px;
+    --background-brightness: 100%;
+}
+/*
+--------------------------------------------------------------------------------------------------------------------------------------------
+*/
+/*
+---------------------------------------------------------------------------------------------------------------------------------------------
+========= CUSTOMIZABLE BACKGROUND IMAGE ==========
+*/
+body::after,
+.callout-backdrop,
+.user-popout::before,
+#user-profile-modal .header::before,
+#pubs-container::before,
+.auth-background,
+.auth-tiling-bg,
+.invite-modal .invite-splash,
+.radio-theme.light label,
+.radio-theme.dark label{
+    background-image: url(https://raw.githubusercontent.com/KonekoSenpai/CatCop-s-Custom-Skin/master/CatCop.png) !important; /* IMPORTANT: Link must be HTTPS! */
+	background-size: 1562px 726px !important;
+	background-position: center !important;
+	background-repeat: no-repeat !important;
+	
+}
+/*
+--------------------------------------------------------------------------------------------------------------------------------------------
+*/
